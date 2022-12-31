@@ -10,9 +10,10 @@
 # var declarations
 dev=$1
 dst=$2
-roots="/tmp/btrfsroots.tmp"
+tmp_folder="/tmp"
+roots="${tmp_folder}/btrfsroots.tmp"
 depth=0
-tmp="/tmp/undeleter.tmp"
+tmp="${tmp_folder}/undeleter.tmp"
 IFS=$'\n'
 rectype="none"
 # vars that can be used to change font color
